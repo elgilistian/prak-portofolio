@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navigasi{
     display: flex;
     justify-content: space-between;
@@ -33,10 +37,14 @@ body{
 .main{
     display: flex;
     align-items: center;
-    padding-top: 40px;
+    padding: 100px 120px;
 }
 .pengenalan h2,h4,p{
     margin: 10px;
+}
+
+.main img{
+    width: 400px;
 }
 
 .pengenalan a{
@@ -49,4 +57,26 @@ body{
 
 .pengenalan a:hover{
     background: mediumpurple;
+}
+
+
+#Tentang .konten{
+    padding: 160px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.konten h1{
+    color: rgb(19, 19, 98);
+}
+
+.konten h2{
+    font-size: 22px;
+}
+
+.konten p{
+    font-size: 16px;
 }
