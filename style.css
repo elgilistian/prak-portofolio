@@ -3,6 +3,7 @@ body{
     background: rgb(36, 79, 80);
     color: aliceblue;
     padding: 20px 100px;
+    margin: 0;
 }
 
 .navigasi{
@@ -27,4 +28,25 @@ body{
     color: aquamarine;
     padding: 5px 5px;
     border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+.pengenalan h2,h4,p{
+    margin: 10px;
+}
+
+.pengenalan a{
+    text-decoration: none;
+    color: aliceblue;
+    background: rgb(34, 34, 112);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.pengenalan a:hover{
+    background: mediumpurple;
 }
