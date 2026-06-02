@@ -12,9 +12,13 @@ html{
 
 
 .navigasi{
+    position: fixed;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .daftar ul{
@@ -38,7 +42,7 @@ html{
 .main{
     display: flex;
     align-items: center;
-    padding: 100px 120px;
+    padding: 180px 120px;
 }
 .pengenalan h2,
 .pengenalan h4,
@@ -124,4 +128,24 @@ html{
 
 .c-item a:hover{
     background-color: rgb(9, 131, 131);
+}
+
+.alamat{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.info h1,
+.info h5{
+    margin: 5px;
+    font-size: 15px;
 }
